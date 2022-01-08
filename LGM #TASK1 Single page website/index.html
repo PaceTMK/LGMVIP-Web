@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGM Task #1 Single Page </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Ubuntu', sans-serif;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            /* background: url('mypc.jpg'); */
+            background-image: url(back3.jpg);
+            /* background-image: url(webback.jpg); */
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .left{
+            display: inline-block;
+            /* border: 2px solid white; */
+            position: absolute;
+            top: 0px;
+            left: 50px;
+            font-size: 18px;
+        }
+        .left img{
+            width: 100px;
+            padding-left: 40px;
+        }
+        .mid{
+            width: 40%;
+            margin: 50px auto;
+            /* border: 2px solid white; */
+        }
+        .right{
+            position: absolute;
+            top: 65px;
+            right: 50px;
+            display: inline-block;
+            /* border: 2px solid white; */
+            font-size: 20px;
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: white;
+            color: grey;
+            padding: 4px 14px;
+            border-radius: 10px;
+            cursor: pointer;
+            font: 15px;
+            font-family: 'Ubuntu', sans-serif;
+
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        }
+        .btn:hover{
+            color: blue;
+            background-color: rgb(119, 219, 169);
+        }
+        .navbar{
+            display: inline-block;
+            color: white;
+        }
+        .navbar li{
+            display: inline-block;
+            color: white;
+            font-size: 20px;
+            padding: 1px 15px;
+            text-decoration: none;
+        }
+        .navbar li a{
+            color: white;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            color: grey;
+            text-decoration: underline;
+
+        }
+        .container{
+            /* border: 5px solid green;
+            width: 40%;
+            margin: 3px 25px;
+            padding: 12px 50px; */
+            /* border: 3px solid green;
+            
+            width: 46%;
+            margin: 3px 45px;
+            padding: 0px -1px; */
+            /* border: 6px solid #1cb1a3; */
+            width: 32%;
+            margin: 1px 10px;
+            padding: 30px 0px;
+
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 365px;
+            padding: 1px;
+            margin: 5px auto;
+            font-size: 17px;
+            font-family: 'Ubuntu', sans-serif;
+            border-radius: 84px;
+        }
+        .container h1{
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            /* background: #fbecf6; */
+            border-radius: 1000px;
+        }
+        .container button{
+            /* text-align: center; */
+            display: block;
+            width: 85%;
+            margin: auto;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+    <header class="conten">
+        <div class="left">
+            <!-- left for logo -->
+            <!-- I am left -->
+            <img src="logo.png" alt="Error Loading Image">
+            <div style="font-weight: bold; text-align: center; margin-left: 30%;" >Faisal Khan</div>
+        </div>
+        <div class="mid">
+            <!-- mid for navbar -->
+            <!-- I am mid -->
+            <ul class="navbar">
+                <li><a href="#" class="active" style="font-weight: bold;">Home</a></li>
+                <li><a href="#" style="font-weight: bold;">Services</a></li>
+                <li><a href="#" style="font-weight: bold;">About Us</a></li>
+                <li><a href="https:/google.com" target="_blank" style="font-weight: bold;">Contack Us</a></li>
+                
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right for button -->
+            <!-- I am right -->
+            <button class="btn">Sign IN</button>
+            <button class="btn">Sign Up</button>
+        </div>
+    </header>
+    <div class="container">
+        <!-- I am a Container -->
+        <h1>Register Now</h1>
+        <!-- <span><H3>New Here, <H1>Register Now</H1></H3> -->
+         <form action="noaction.php">
+             <div class="form-group">
+                 <input type="text" name="" id="" placeholder="Enter Your name">
+             </div>
+         <form action="noaction.php">
+             <div class="form-group">
+                 <input type="text" name="" id="" placeholder="Enter Your Age">
+             </div>
+         <form action="noaction.php">
+             <div class="form-group">
+                 <input type="text" name="" id="" placeholder="Enter Your Gender">
+             </div>
+         <form action="noaction.php">
+             <div class="form-group">
+                 <input type="text" name="" id="" placeholder="Enter Your Locality">
+             </div>
+         <form action="noaction.php">
+             <div class="form-group">
+                 <input type="text" name="" id="" placeholder="Enter Your Email id">
+             </div>
+         <form action="noaction.php">
+             <div class="form-group">
+                 <input type="text" name="" id="" placeholder="Enter Your Phone Number">
+             </div>
+             <button  class="btn" >Submit</button>
+         </form>
+    </div>
+<body>    
+</body>
+</html>
